@@ -1,15 +1,18 @@
-import socket
-import TCPUtils
+#from hilo import HiLo
+#game = HiLo()
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#from hilo_udp import UDPHiLo
+#game = UDPHiLo()
 
-client.connect( ("localhost",1234) )
+from hilo_tcp import TCPHiLo
+game = TCPHiLo()
 
 for x in range(1,101):
-    TCPUtils.sendString(client,str(x))
-    resp = TCPUtils.readString(client)
-    print x, resp
-    if resp == "You guessed it":
+    
+    resp = game.check_guess(x)
+    
+    print("Guess:"+str(x)+" Response:"+resp)
+        
+    if resp == "Correct":
         break
     
-client.close()

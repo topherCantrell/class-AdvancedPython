@@ -9,7 +9,7 @@ number = random.randint(1,101)
 score = 0
 
 while True:
-    guess = raw_input("What is your guess? ")
+    guess = input("What is your guess? ")
     g = int(guess)
     score = score + 1
     

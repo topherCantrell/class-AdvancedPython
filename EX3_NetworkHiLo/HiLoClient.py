@@ -1,21 +1,25 @@
-import socket
-import TCPUtils
+#from hilo import HiLo
+#game = HiLo()
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#from hilo_udp import UDPHiLo
+#game = UDPHiLo()
 
-client.connect( ("localhost",1234) )
+from hilo_tcp import TCPHiLo
+game = TCPHiLo()
 
 start = 1
 end = 100
 
 while True:    
     guess = ((end - start) / 2) + start
-    print guess
+    guess = int(guess)
     
     lastGuess = guess    
-    TCPUtils.sendString(client,str(guess))
-    resp = TCPUtils.readString(client)
     
+    resp = game.check_guess(guess)
+    
+    print("Guess:"+str(guess)+" Response:"+resp)
+            
     if resp == "Higher":
         start = guess
     elif resp == "Lower":
@@ -23,4 +27,3 @@ while True:
     else:
         break
     
-client.close()
