@@ -25,16 +25,16 @@ class CorkBoard(object):
     def __init__(self):
         self._messages = []
     
-    def postMessage(self, message):
+    def post_message(self, message):
         self._messages.append(message)
     
     def clear(self):
         self._messages = []
     
-    def getMessages(self):
+    def get_messages(self):
         return self._messages
     
-    def getMessagesFrom(self,filt):
+    def get_messages_from(self,filt):
         if(len(filt)==0):
             return self.getMessages()
         ret = []
@@ -43,18 +43,18 @@ class CorkBoard(object):
                 ret.append(m)
         return ret
     
-def makeExampleData(board):
+def make_example_data(board):
     message = Message("Chris","This is a test message","1/1/2018:08:45")
-    board.postMessage(message)
+    board.post_message(message)
     message = Message("Pat","I see the test message","1/1/2018:09:00")
-    board.postMessage(message)
+    board.post_message(message)
     message = Message("Bob","And so do I","1/2/2018:09:10")
-    board.postMessage(message)
+    board.post_message(message)
         
 if __name__ == '__main__':
     
     board = CorkBoard()
     
-    makeExampleData(board);  
+    make_example_data(board);  
     
-    print(str(board.getMessages()))
+    print(str(board.get_messages()))
