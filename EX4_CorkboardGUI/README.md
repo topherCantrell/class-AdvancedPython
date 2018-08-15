@@ -1,3 +1,5 @@
+![](https://github.com/topherCantrell/class-AdvancedPython/blob/master/EX4_CorkboardGUI/art/corkboardGUI.jpg)
+
 # Part 1
 
   - Add the widgets you need
