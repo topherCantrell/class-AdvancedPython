@@ -11,3 +11,5 @@
 # Part 2
 
   - Tweak the layout of the UI
+  
+![](https://github.com/topherCantrell/class-AdvancedPython/blob/master/EX4_CorkboardGUI/art/part2.jpg)

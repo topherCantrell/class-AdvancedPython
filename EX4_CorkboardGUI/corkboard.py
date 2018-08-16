@@ -35,11 +35,11 @@ class CorkBoard(object):
         return self._messages
     
     def get_messages_from(self,filt):
-        if(len(filt)==0):
-            return self.getMessages()
+        if(len(filt)==0 or len(filt[0])==0):
+            return self.get_messages()        
         ret = []
         for m in self._messages:
-            if(m.sender in filt):
+            if(m.get_sender() in filt):
                 ret.append(m)
         return ret
     
