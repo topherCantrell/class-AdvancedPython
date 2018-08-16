@@ -1,11 +1,10 @@
 import tornado.ioloop
 import tornado.web
 
-import CorkBoard 
-import Message
+import corkboard 
 
-board = CorkBoard.CorkBoard()     
-CorkBoard.makeExampleData(board)
+board = corkboard.CorkBoard()     
+corkboard.make_example_data(board)
 
 class ChatHandler(tornado.web.RequestHandler):    
            
@@ -17,52 +16,54 @@ class ChatHandler(tornado.web.RequestHandler):
         # clear = self.get_argument("clear",None)
         
         if (sender and message):
-            m = Message.Message(sender,message)
-            self.board.postMessage(m)       
+            m = corkboard.Message(sender,message,"NOW")
+            board.post_message(m)       
          
         # We'll send this back as a shortcut   
         if not sender:
             sender = ''     
             
-        self.write("""
+        self.write(
+"""
 <html>
 
-<H1>Web Chat</H1>
+    <H1>Web Chat</H1>
 
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 
-<table>
-  <tr>
-    <th>Date</th>
-    <th>Sender</th>
-    <th>Message</th>
-  </tr>
-        """)
+    <table>
+    <tr>
+        <th>Date</th>
+        <th>Sender</th>
+        <th>Message</th>
+    </tr>
+""")
         
-        for post in board.getMessages():
-            self.write("<tr><td>"+post.date.strftime("%Y-%m-%d %H:%M")+"</td><td>"+post.sender+"</td><td>"+post.message+"</td></tr>")            
+        for post in board.get_messages():
+            self.write("<tr><td>"+post.get_date()+"</td><td>"+post.get_sender()+"</td><td>"+post.get_message()+"</td></tr>")            
             
-        self.write("""  
-</table>
+        self.write(
+"""  
+    </table>
 
-<hr>
+    <hr>
 
-<form action="chat">
-Filter: <input type="text" name="filter">
-<input type="checkbox" name="clear">Clear Messages
-<p>
-Sender: <input type="text" name="sender" value='"""+sender+"""'>
-Message: <input type="text" name="message">
-<input type="Submit">
-</form>
+    <form action="chat">
+        Filter: <input type="text" name="filter">
+        <input type="checkbox" name="clear">Clear Messages
+        <p>
+        Sender: <input type="text" name="sender" value='"""+sender+"""'>
+        Message: <input type="text" name="message">
+        <input type="Submit">
+    </form>
 
 </html>
-        """)          
+""")          
 
 if __name__ == "__main__":
 
