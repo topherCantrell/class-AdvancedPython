@@ -7,7 +7,7 @@ def entry_function():
     id = sprites.make_rectangle(10,10)
     while True:        
         time.sleep(0.5)
-        sprites.move_rectangle(id,4,2)        
+        sprites.move(id,4,2)        
         
 sprites.make_gui()
 

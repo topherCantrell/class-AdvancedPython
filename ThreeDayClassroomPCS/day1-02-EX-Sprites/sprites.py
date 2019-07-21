@@ -12,7 +12,7 @@ def make_rectangle(x,y):
     id = canvas.create_rectangle(x,y,x+20,y+20)
     return id
 
-def move_rectangle(id,xofs,yofs):
+def move(id,xofs,yofs):
     global canvas
     canvas.move(id,xofs,yofs)
 
