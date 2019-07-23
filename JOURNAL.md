@@ -6,6 +6,6 @@ Coming up!
 
 # 8/21/2018
 
-Seven-night course. 
+Seven-night course. 3 students.
 
 Looking back on it, I wish I remembered more about it. I must keep better notes.
