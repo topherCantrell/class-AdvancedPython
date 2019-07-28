@@ -11,8 +11,8 @@
 | 12:00 Lunch   | Lunch          | Lunch             | Lunch        |
 |               |                |                   |              |
 |  1:30 Lecture | JUnit          | Net: UDP/TCP      | Python + C   |
-|  2:30 Lab     | tic-tac-tests  | hi-lo Net         | ?            |
+|  2:30 Lab     | tic-tac-tests  | hi-lo Net         | TBD          |
 |               |                |                   |              |
-|  3:00 Lecture | Misc Features  | Web               | Embedded     |
-|  4:00 Lab     | ?              | hi-lo Web         | roomba       |
+|  3:00 Lecture | Generators     | Web               | MiscTopics   |
+|  4:00 Lab     | FindPrimes     | hi-lo Web         |              |
 
