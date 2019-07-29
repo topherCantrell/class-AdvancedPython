@@ -1,4 +1,12 @@
 # Sleep function causes current thread to pause
+
+"""
+
+https://github.com/topherCantrell/class-AdvancedPython
+
+topherCantrell@gmail.com
+
+"""
 import time
 
 def sleep_demo():
@@ -113,3 +121,5 @@ def condition_demo():
     name = 'Chris'
     cv.notify()
     my_lock.release()
+
+print('hello')
