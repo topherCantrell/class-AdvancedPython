@@ -5,6 +5,10 @@ shrink the depth of content on the DB and have an advanced deck ready just in ca
 
 Oh my, the slides are out of alignment with the database we created. Students couldn't follow along. MUST fix that.
 
+And the recv_all vs read_all in the networking.
+
+Need a topic on deployment, wheels, eggs, setup tools etc
+
 # 7/29/2019
 
 Really need to stick with PyCharm. Learn to use it FULLY to better demonstrate.
