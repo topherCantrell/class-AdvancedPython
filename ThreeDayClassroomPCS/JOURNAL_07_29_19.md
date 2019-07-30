@@ -1,7 +1,11 @@
 # 7/30/2019
 
+Wow. There is SO MUCH material listed as covering in day 2. I suspect the web module should move to day 3. Definitely 
+shrink the depth of content on the DB and have an advanced deck ready just in case. SQL injection can be optional.
 
 # 7/29/2019
+
+Really need to stick with PyCharm. Learn to use it FULLY to better demonstrate.
 
 One topic per morning seems to be plenty with some short topics at the ends. The threading took all morning. Didn't get
 to the sprites lab -- just the "Hello" and "World". Ended the morning with "lambdas". Student suggested tying slides 5
