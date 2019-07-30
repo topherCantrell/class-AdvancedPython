@@ -3,6 +3,8 @@
 Wow. There is SO MUCH material listed as covering in day 2. I suspect the web module should move to day 3. Definitely 
 shrink the depth of content on the DB and have an advanced deck ready just in case. SQL injection can be optional.
 
+Oh my, the slides are out of alignment with the database we created. Students couldn't follow along. MUST fix that.
+
 # 7/29/2019
 
 Really need to stick with PyCharm. Learn to use it FULLY to better demonstrate.
