@@ -16,33 +16,9 @@ def onClick():
     value = float(value)
     old_value = value
     
-    #value = value * TO_MM[from_units]
-    #value = value / TO_MM[to_units]
-    
-    # Convert input to mm
-    
-    if from_units=='inches':
-        value = value * 25.4
-    if from_units=='feet':
-        value = value * 25.4 * 12
-    if from_units=='cm':
-        value = value * 10.0
-    if from_units=='mm':
-        value = value * 1.0
-    
-    # Convert value to output units
-    
-    if to_units=='inches':
-        value = value / 25.4
-    elif to_units=='feet':
-        value = value / (25.4 * 12)
-    elif to_units=='cm':
-        value = value / 10.0
-    elif to_units=='mm':
-        value = value / 1.0
-    #else:
-    #    raise Exception('OOPS')
-    
+    value = value * TO_MM[from_units]
+    value = value / TO_MM[to_units]
+           
     his.configure(state="normal")
     his.insert(tkinter.END,'\n{} {} is {} {}'.format(old_value,from_units,value,to_units))
     his.configure(state="disabled")
