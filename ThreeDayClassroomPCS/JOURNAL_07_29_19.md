@@ -1,3 +1,7 @@
+# 7/31/2019
+
+
+
 # 7/30/2019
 
 Wow. There is SO MUCH material listed as covering in day 2. I suspect the web module should move to day 3. Definitely 
