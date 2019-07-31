@@ -25,6 +25,8 @@ def onClick():
 
 root = tkinter.Tk()
 
+root.configure(background='blue')
+
 top = tkinter.Frame(root)
 m1 = ttk.Label(top, text="Convert")
 c1 = ttk.Combobox(top, values=["inches","feet","cm","mm"])
