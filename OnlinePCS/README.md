@@ -16,5 +16,9 @@ x = 'Hello World'
 y = x.encode() # This converts a string to bytes
 
 x = b'Some bytes'
-y = x.decode() * This converts bytes to a string
+y = x.decode() # This converts bytes to a string
 ```
+
+The tcputils have been updated in this repo, but the videos need updating.
+
+https://github.com/topherCantrell/class-AdvancedPython/tree/master/OnlinePCS/EX3_NetworkHiLo
