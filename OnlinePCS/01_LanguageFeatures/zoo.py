@@ -1,22 +1,22 @@
 animals = {        
-    "Question" : "Does it live on land?",
-    "No" : "Fish",
-    "Yes" : {
-        "Question": "Does it fly?",
-        "Yes" : "Bird",
-        "No" : "Cow"
+    'Question' : 'Does it live on land?',
+    'No' : 'Fish',
+    'Yes' : {
+        'Question': 'Does it fly?',
+        'Yes' : 'Bird',
+        'No' : 'Cow'
         }    
 }
 
 def getYesNo(prompt):
-    ret = raw_input(prompt).capitalize()[0]
-    if ret=="Y":
-        return "Yes"
-    return "No"
+    ret = input(prompt).capitalize()[0]
+    if ret=='Y':
+        return 'Yes'
+    return 'No'
 
 node = animals
 while True:
-    ans = getYesNo(node["Question"]+" ")
+    ans = getYesNo(node['Question']+' ')
     
     next_node = node[ans]
             
@@ -24,19 +24,19 @@ while True:
         node = next_node
         continue    
     
-    got_it = getYesNo("Is it a "+next_node+"? ")
+    got_it = getYesNo('Is it a '+next_node+'? ')
     
     if got_it == 'Yes':
-        print "Let's play again."
+        print("Let's play again.")
         node = animals
         continue
     
-    print "You stumped me."
-    new_animal = raw_input("What were you thinking of? ")
-    new_ques = raw_input("Give me a question to separate "+next_node+" from "+new_animal+": ")
-    yn = getYesNo("And what would the Y/N answer be for "+new_animal+"? ")
+    print('You stumped me.')
+    new_animal = input('What were you thinking of? ')
+    new_ques = input('Give me a question to separate '+next_node+' from '+new_animal+': ')
+    yn = getYesNo('And what would the Y/N answer be for '+new_animal+'? ')
     
-    new_node = {"Question":new_ques}    
+    new_node = {'Question':new_ques}    
     if yn=='Yes':
         new_node['Yes'] = new_animal
         new_node['No'] = next_node
@@ -46,6 +46,6 @@ while True:
      
     node[ans] = new_node    
    
-    print "Let's play again."
+    print('Let\'s play again.')
     node = animals 
     
