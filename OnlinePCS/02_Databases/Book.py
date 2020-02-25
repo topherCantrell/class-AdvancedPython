@@ -25,4 +25,4 @@ a.publisher = "Good Books"
 
 e = {'isbn':"test", 'name':"name"}
 
-print e
+print(e)

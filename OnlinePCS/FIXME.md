@@ -1,14 +1,9 @@
-A_01_Review
-	16,17 example rewrite (visual?)
-	
-A_02_ModulesObjects
-    3 lots of prints (visual?)
+03: WORK
+  - Most everything ... bytes
 
-C_02_UDP, C_03_TCP
-  - work
-C_EX3_Solution (work)
-D_03_Widgets (visual)
-D_04_Layout (visual)
-E_01, E02 (visual)
-
-A_EX1_solution (visual)
+04: WORK (hopefully visual)
+  - *D_02_Widgets (all visual)
+  - *D_03_Layout (all visual)
+  
+05: Overview has a couple of prints (visual)
+  - *E_01_Overview: 4,5
