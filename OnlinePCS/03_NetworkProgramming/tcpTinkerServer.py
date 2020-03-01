@@ -9,7 +9,7 @@ s.bind( ("", 8888))
 s.listen(1)
 
 conn, addr = s.accept()
-print 'Connection address:', addr
+print('Connection address:', addr)
 
 d = TCPUtils.readObject(conn)
 
