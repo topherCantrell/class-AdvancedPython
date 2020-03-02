@@ -1,4 +1,6 @@
-# Three Day Classroom
+# Three Day Course
+
+TODO: links to topics and exercises
 
 |               | Day 1          | Day 2             | Day 3        |
 | -----         | -----          | -----             | -----        |

@@ -1,3 +1,6 @@
+# Seven Night Course
+
+TODO: links to topics and exercises
 
 | Day   | Topic                | Presentation         | Lab/Exercise      |
 | ----- | -----                | -------              | -----             |

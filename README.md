@@ -1,27 +1,20 @@
-# Advanced Python course for UAH
+# Advanced Python Course for UAH
 
-# VM Configuration
-  - Install latest Python 3.x for Windows
+There are multiple formats of this course. The topics are the same, but the timing is slightly different:
 
-# Material
+  * [Online Course](Course_Online/README.md)
+  * [3-Day Course](Course_ThreeDay/README.md)
+  * [7-Night Course](Course_SevenNight/README.md)
 
-* Session 1: Language Features
-  - Review
-  - OOP (inheritance)
-  
-* Session 2: Databases
-
-* Session 3: Network Programming
-
-* Session 4: GUI
-
-* Session 5: Web
-
----
-
-# Addition Topics
-
-  - Unit testing
-  - NoSQL databases
-  - Pyro RMI
-  - Docking to C
+Master List of Topics:
+  * 1 [Review](Topics/01_LanguageFeatures)
+  * 2 [Databases]
+  * 3 [Network Programming]
+  * 4 [GUIs]
+  * 5 [Web]
+  * X1 [Threads]
+  * X2 [Test Driven Development]
+  * X3 [Object-Oriented TicTacToe]
+  * X4 [Generators]
+  * X5 [Packaging]
+  * X6 [Python on the Raspberry Pi]
