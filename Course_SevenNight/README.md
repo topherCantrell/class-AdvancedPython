@@ -1,5 +1,7 @@
 # Seven Night Course
 
+## topherCantrell@gmail.com
+
 TODO: links to topics and exercises
 
 | Day   | Topic                | Presentation                                                                                              |
