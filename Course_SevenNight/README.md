@@ -2,19 +2,24 @@
 
 TODO: links to topics and exercises
 
-| Day   | Topic                | Presentation                                                                           |
-| ----- | -----                | -------                                                                                |
-| 1     | Language Features    | 55 mins: [Review and Zoo Example](../Topics/01_LanguageFeatures/A_01_Review.pptx)      |
-|       |                      | 10 mins: Break                                                                         |
+| Day   | Topic                | Presentation                                                                                              |
+| ----- | -----                | -------                                                                                                   |
+| 1     | Language Features    | 55 mins: [Review and Zoo Example](../Topics/01_LanguageFeatures/A_01_Review.pptx)                         |
+|       |                      | 10 mins: Break                                                                                            |
 |       |                      | 25 mins: [Exercise: HiLo](../Topics/01_LanguageFeatures/EX1_HiLowCorkBoard/A_EX1_HiLoCorkBoard.pptx)      |
-|       |                      | 55 mins: [Classes and Import](../Topics/01_LanguageFeatures/A_02_ModulesObjects.pptx)  |
-|       |                      | 10 mins: Break                                                                         |
+|       |                      | 55 mins: [Classes and Import](../Topics/01_LanguageFeatures/A_02_ModulesObjects.pptx)                     |
+|       |                      | 10 mins: Break                                                                                            |
 |       |                      | 25 mins: [Exercise: Corkboard](../Topics/01_LanguageFeatures/EX1_HiLowCorkBoard/A_EX1_HiLoCorkBoard.pptx) |
 | | | |
-| 2     | Databases            | SQL Basics            Cats and Dogs 1   |
-|       |                      | Python DBAPI          Cats and Dogs 2   |
-|       |                      | Transactions                            |
-|       |                      | SQL Injection                           |
+| 2     | Databases            | 55 mins: [Database Overview](../Topics/02_Databases/B_01_Database_Overview.pptx)                          |
+|       |                      | [SQL Basics](../Topics/02_Databases/B_02_SQL_Basics.pptx)                                                 |
+|       |                      | [Python DB API](../Topics/02_Databases/B_03_PythonDBAPI.pptx)                                             |
+|       |                      | 10 mins: Break                                                                                            |             
+|                              | 25 mins: [Exercise: Cats and Dogs Part 1](../Topics/02_Databases/EX2_CatsAndDogs/B_EX2_CatsAndDogs.pptx)  |
+|       |                      | 55 mins: [Transactions](../Topics/02_Databases/B_04_Transactions.pptx)                                    |
+|       |                      | [SQL Injections](../Topics/02_Databases/B_05_SQL_Injection.pptx)                                          |
+|       |                      | 10 mins: Break                                                                                            |
+|       |                      | 25 mins: [Exercise: Cats and Dogs Part 2](../Topics/02_Databases/EX2_CatsAndDogs/B_EX2_CatsAndDogs.pptx)  |
 | | | |
 | 3     | Network Programming  | Bytes and Strings     HiLo UDP          |
 |       |                      | UDP                   HiLo TCP          |
