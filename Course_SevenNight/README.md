@@ -31,18 +31,43 @@ TODO: links to topics and exercises
 |       |                      | 10 mins: Break                                                                                             |
 |       |                      | 25 mins: [Exercise: HiLo with TCP](../Topics/03_NetworkProgramming/EX3_NetworkHiLo/C_EX3_NetworkHiLo.pptx) |
 | | | |
-| 4     | Pointers and Threads | Stack and Heap        Sprite Motion     |
-|       |                      | Threads                                 |
+| 4     | Pointers and Threads | 55 mins: [Lambdas](../Topics/X04_Generators/lambda_tinker.py)                                              |
+|       |                      | [Pointers](TBD)                                                                                            |
+|       |                      | 10 mins: Break                                                                                             |
+|       |                      | 25 mins: [Exercise: TBD](TBD)                                                                              |
+|       |                      | 55 mins: [Generators](../Topics/X04_Generators)                                                            |
+|       |                      | [Threads](../Topics/X01_Threads/1_A_Threads.pptx)                                                          |
+|       |                      | 10 mins: Break                                                                                             |
+|       |                      | 25 mins: [Exercise: Sprite Motion](../Topics/X01_Threads/EXX1_Sprites)                                     |
 | | | |
-| 5     | GUI                  | Widgets               Corkboard Widgets |
-|       |                      | Layout                Corkboard Layout  |
-|       |                      | Hi/Lo Example                           |
+| 5     | GUI                  | 55 mins: [Web Technology](../Topics/04_GUIs/D_01_Overview.pptx) |
+|       |                      | [GUI Widgets](../Topics/04_GUIs/D_02_Widgets.pptx) |
+|       |                      | [HiLo Example](../Topics/04_GUIs/D_04_Example.pptx) |
+|       |                      | 10 mins: Break |
+|       |                      | 25 mins: [Exercise: Corkboard GUI Widgets](../Topics/04_GUIs/EX4_CorkboardGUI/D_EX4_MessageGUI.pptx) | 
+|       |                      | 55 mins: [GUI Layout](../Topics/04_GUIs/D_03_Layout.pptx) |
+|       |                      | [HiLo Example](../Topics/04_GUIs/D_04_Example.pptx) |
+|       |                      | 10 mins: Break |
+|       |                      | 25 mins: [Exercise: Corkboard GUI Layout](../Topics/04_GUIs/EX4_CorkboardGUI/D_EX4_MessageGUI.pptx) |
+
 | | | |
 | 6     | Web                  | Web tech 101          Web Corkboard     |
 |       |                      | Tornado                                 |
 |       |                      | Sessions and Cookies                    |
 |       |                      | Hi/Lo Example                           |
+| 6     | Web                  | 55 mins: []() |
+|       |                      | 10 mins: Break
+|       |                      | 25 mins: [Exercise:]() | |
+|       |                      | 55 mins: []() |
+|       |                      | 10 mins: Break
+|       |                      | 25 mins: [Exercise:]() | |
 | | | |
 | 7     | Misc                 | File I/O              Madlibs           |
 |       |                      | String Processing     Traffic Light     |
 |       |                      | Embedded Examples                       |
+| 7     | Misc                 | 55 mins: []() |
+|       |                      | 10 mins: Break |
+|       |                      | 25 mins: [Exercise:]()  |
+|       |                      | 55 mins: []() |
+|       |                      | 10 mins: Break |
+|       |                      | 25 mins: [Exercise:]() | 
