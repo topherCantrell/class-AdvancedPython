@@ -23,9 +23,13 @@ TODO: links to topics and exercises
 |       |                      | 10 mins: Break                                                                                            |
 |       |                      | 25 mins: [Exercise: Cats and Dogs Part 2](../Topics/02_Databases/EX2_CatsAndDogs/B_EX2_CatsAndDogs.pptx)  |
 | | | |
-| 3     | Network Programming  | Bytes and Strings     HiLo UDP          |
-|       |                      | UDP                   HiLo TCP          |
-|       |                      | TCP                                     |
+| 3     | Network Programming  | 55 mins: [Sockets Overview](../Topics/03_NetworkProgramming/C_01_SocketsOverview.pptx)                     |
+|       |                      | [Sockets: UDP](../Topics/03_NetworkProgramming/C_02_UDP.pptx)                                              |
+|       |                      | 10 mins: Break                                                                                             |
+|       |                      | 25 mins: [Exercise: HiLo with UDP](../Topics/03_NetworkProgramming/EX3_NetworkHiLo/C_EX3_NetworkHiLo.pptx) |
+|       |                      | [Sockets: TCP](../Topics/03_NetworkProgramming/C_03_TCP.pptx)                                              |
+|       |                      | 10 mins: Break                                                                                             |
+|       |                      | 25 mins: [Exercise: HiLo with TCP](../Topics/03_NetworkProgramming/EX3_NetworkHiLo/C_EX3_NetworkHiLo.pptx) |
 | | | |
 | 4     | Pointers and Threads | Stack and Heap        Sprite Motion     |
 |       |                      | Threads                                 |
