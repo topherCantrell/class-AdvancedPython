@@ -17,7 +17,7 @@ TODO: links to topics and exercises
 |       |                      | [SQL Basics](../Topics/02_Databases/B_02_SQL_Basics.pptx)                                                 |
 |       |                      | [Python DB API](../Topics/02_Databases/B_03_PythonDBAPI.pptx)                                             |
 |       |                      | 10 mins: Break                                                                                            |             
-|                              | 25 mins: [Exercise: Cats and Dogs Part 1](../Topics/02_Databases/EX2_CatsAndDogs/B_EX2_CatsAndDogs.pptx)  |
+|       |                      | 25 mins: [Exercise: Cats and Dogs Part 1](../Topics/02_Databases/EX2_CatsAndDogs/B_EX2_CatsAndDogs.pptx)  |
 |       |                      | 55 mins: [Transactions](../Topics/02_Databases/B_04_Transactions.pptx)                                    |
 |       |                      | [SQL Injections](../Topics/02_Databases/B_05_SQL_Injection.pptx)                                          |
 |       |                      | 10 mins: Break                                                                                            |
