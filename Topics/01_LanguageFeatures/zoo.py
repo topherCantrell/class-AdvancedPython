@@ -1,18 +1,32 @@
-animals = {        
-    'Question' : 'Does it live on land?',
-    'No' : 'Fish',
-    'Yes' : {
-        'Question': 'Does it fly?',
-        'Yes' : 'Bird',
-        'No' : 'Cow'
-        }    
-}
+import json
+
+def save_zoo():
+    with open('zoo.json','w') as f:
+        json.dump(animals,f)
+
+def load_zoo():
+    try:
+        with open('zoo.json') as f:
+            return json.load(f)
+    except:
+        # Fall back on the initial data structure
+        return {        
+            'Question' : 'Does it live on land?',
+            'No' : 'Fish',
+            'Yes' : {
+                'Question': 'Does it fly?',
+                'Yes' : 'Bird',
+                'No' : 'Cow'
+                }    
+        }
 
 def getYesNo(prompt):
     ret = input(prompt).capitalize()[0]
     if ret=='Y':
         return 'Yes'
     return 'No'
+
+animals = load_zoo() # Load any existing zoo file
 
 node = animals
 while True:
@@ -45,6 +59,8 @@ while True:
         new_node['No'] = new_animal
      
     node[ans] = new_node    
+    
+    save_zoo() # Record the current database
    
     print('Let\'s play again.')
     node = animals 
