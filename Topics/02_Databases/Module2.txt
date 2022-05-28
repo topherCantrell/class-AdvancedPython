@@ -1,0 +1,219 @@
+; Module 2 Databases
+
+; Overview
+
+1 A _____ key column is like a pointer to another table.
+    *foreign
+    primary
+    master
+    reference
+
+2 The values in a _____ key column must be unique.
+     *primary
+     foreign
+     constraint
+     reference
+
+3 Creating all combinations of rows from multiple tables is called a _____.
+    *join
+    query
+    relationship
+    ordering
+
+4 A join table allows you to model a _____ relationship.
+    *one to many
+    foreign key
+    circular
+    cartesian
+
+; SQL Basics
+
+5 Like in Java, SQL keywords are case sensitive.
+    *FALSE
+
+6 SQL commands must end with a _____.
+    *semicolon
+    period
+    WHERE clause
+    timeout
+
+7 To create a table you use the SQL _____ command.
+    *CREATE
+    INSERT
+    SCHEMA
+    MAKE
+
+8 To add rows to a table use the SQL _____ command.
+    *INSERT
+    ADD
+    CREATE
+    SET
+
+9 To query rows from a table use the SQL _____ command.
+    *SELECT
+    GET
+    FETCH
+    READ
+
+10 The asterisk wildcard following the SELECT command means:
+    *SELECT all columns
+    SELECT all rows
+    SELECT all tables
+    SELECT empty columns
+
+11 To limit the rows the database returns use the SQL _____ clause.
+    *WHERE
+    SELECT
+    wildcard
+    MORE
+
+12 The UPDATE command changes at most one row in the database.
+    *FALSE ^ Be careful
+
+13 Use the SQL _____ command to join multiple tables.
+    *SELECT ^ list several tables separated by commas
+    JOIN
+    WHERE
+    COMBO
+
+14 The server will order the returned rows for you if you send the _____ command.
+    *ORDER BY
+    WHERE
+    ASCEND
+    SORTED
+
+15 A _____ key is unique across all rows in a table.
+    *PRIMARY
+    FOREIGN
+    VARCHAR
+    ENUM
+
+16 A _____ key references a primary key in another table.
+    *FOREIGN
+    PRIMARY
+    VARCHAR
+    REF
+
+17 The SQLite database can generate primary keys for you.
+    *TRUE
+
+18 The SQLite database can enforce foreign key constraints.
+    *TRUE ^ remember to turn on the checking
+
+19 You can add a constraint to a column to ensure the value is greater than zero.
+    *TRUE ^ like with "CHECK (grade>0)"
+
+; Transactions 
+
+20 When you are ready to commit your changes to the database send the _____ command.
+    *commit
+    flush
+    write
+    rollback
+
+21 If you want to abort your changes to the database send the _____ command.
+    *rollback
+    abort
+    commit
+    rewind
+
+
+; SQLInjection
+
+; PythonDBAPI
+
+22 Python ships with the database driver for _____ .
+    *sqlite
+    postgres
+    oracle
+    mysql
+
+23 The SQL language is identical across all database implementations.
+    *FALSE ^ the sql type "boolean", for instance, is not available in all
+
+24 You must import _____ to talk to a sqlite database.
+    *sqlite3
+    dbapi
+    sqldriver
+    dbdriver
+
+25 This method takes the filename of the sqlite database.
+   *connect
+   cursor
+   fetchall
+   execute
+
+26 Once you are connected to the database you will need a _____ object to execute SQL statements.
+   *cursor
+   transaction
+   injector
+   statement
+
+27 The "execute" method can send up to _____ SQL statements to the database at once.
+   *one ^ each call to execute sends a single command to the database
+   two
+   as many as you want
+   zero
+
+28 Use the _____ method to fetch the next row from the cursor.
+   *fetchone
+   fetchmany
+   fetchall
+   getrow
+
+29 Use the _____ method to fetch all remaining rows from the cursor.
+   *fetchall
+   getrows
+   fetchmany
+   fetchone
+
+30 The _____ method takes the number of rows you want to fetch.
+   *fetchmany
+   fetchrows
+   fetchall
+   getrows
+
+31 The Python DBAPI models a row from the database as a:
+   *tuple
+   list
+   array
+   object
+
+32 Whenever possible you should pull the raw data from the database and write your calculations in Python.
+   *FALSE ^ the database is exceedingly efficient at searches and ordering
+
+33 Virus protection software protects your server from SQL injection attacks.
+   *FALSE ^ SQL injection is a bug in your code
+
+34 The Python DBAPI standardizes the "?" as the parameter substitution token.
+   *FALSE ^ The "?" is just one of many schemes that vendors can choose
+
+35 The following creates a tuple of one thing:
+   *(name,)
+   (name)
+   ((name))
+   tup(name)
+
+36 When you are ready to apply all of the changes you made to the database you call:
+   *commit
+   rollback
+   apply
+   close
+
+37 When you want to abort all of the changes you made to the database you call:
+   *rollback
+   commit
+   apply
+   drop
+
+38 Your code should always call _____ on every database connection.
+   *close
+   rollback
+   fetchall
+   finally
+
+39 By default, foreign-key-checking is turned on in sqlite3.
+   * FALSE ^ Use the SQL "pragma foreign keys=ON" to enable it
+
+40 SQLite keeps the database in a single file on the filesystem
+   * TRUE

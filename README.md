@@ -1,10 +1,4 @@
-# Advanced Python Course for UAH
-
-There are multiple formats of this course. The topics are the same, but the timing is slightly different:
-
-  * [Online Course](Course_Online)
-  * [3-Day Course](Course_ThreeDay)
-  * [7-Night Course](Course_SevenNight)
+# Advanced Python Course
 
 Master List of Topics:
   *   1 [Review](Topics/01_LanguageFeatures)
@@ -18,3 +12,7 @@ Master List of Topics:
   * X04 [Generators](Topics/X04_Generators)
   * X05 [Packaging](Topics/X05_Packaging)
   * X06 [Python on the Raspberry Pi](Topics/X06_PiLab)
+  * X07 [Python and Pointers](Topics/X07_Pointers)
+
+# Things to Fix
+
