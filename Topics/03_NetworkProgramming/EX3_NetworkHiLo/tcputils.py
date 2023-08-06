@@ -1,4 +1,3 @@
-# Primitive messages to send/receive all bytes from a byte array
 
 def send_all_bytes(sock,msg):
     totalsent = 0

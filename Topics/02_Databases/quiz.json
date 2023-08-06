@@ -1,0 +1,190 @@
+[
+    {
+        "type": "PickOne",
+        "question": "Python ships with the database driver for _____ .",
+        "answers": [
+            {"text":"postgres", "info":""},
+            {"text":"sqlite",   "info":"", "correct":true},
+            {"text":"oracle",   "info":""},
+            {"text":"mysql",    "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "When you want to abort all of the changes you made to the database you call:",
+        "answers": [
+            {"text":"rollback", "info":"", "correct":true},
+            {"text":"commit", "info":""},
+            {"text":"apply", "info":""},
+            {"text":"drop", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "SQLite keeps the database in a single file on the filesystem.",
+        "answers": [
+            {"true":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The _____ method takes the number of rows you want to fetch.",
+        "answers": [
+            {"text":"fetchmany", "info":"", "correct":true},
+            {"text":"fetchrows", "info":""},
+            {"text":"fetchall", "info":""},
+            {"text":"getrows", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "Once you are connected to the database you will need a _____ object to execute SQL statements.",
+        "answers": [
+            {"text":"transaction", "info":""},
+            {"text":"cursor", "info":"", "correct":true},
+            {"text":"injector", "info":""},
+            {"text":"statement", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "To add rows to a table use the SQL _____ command.",
+        "answers": [
+            {"text":"ADD", "info":""},
+            {"text":"INSERT", "info":"", "correct":true},
+            {"text":"CREATE", "info":""},
+            {"text":"SET", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "Virus protection software protects your server from SQL injection attacks.",
+        "answers": [            
+            {"false":""}            
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "To limit the rows the database returns use the SQL _____ clause.",
+        "answers": [
+            {"text":"SELECT", "info":""},
+            {"text":"WHERE", "info":"", "correct":true},
+            {"text":"wildcard", "info":""},
+            {"text":"MORE", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "Use the _____ method to fetch the next row from the cursor.",
+        "answers": [
+            {"text":"fetchmany", "info":""},
+            {"text":"fetchall", "info":""},
+            {"text":"fetchone", "info":"", "correct":true},
+            {"text":"getrow", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The 'execute' method can send up to _____ SQL statements to the database at once.",
+        "answers": [
+            {"text":"one", "info":"", "correct":true},
+            {"text":"two", "info":""},
+            {"text":"as many as you want", "info":""},
+            {"text":"zero", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "A _____ key is unique across all rows in a table.",
+        "answers": [
+            {"text":"FOREIGN", "info":""},
+            {"text":"VARCHAR", "info":""},
+            {"text":"PRIMARY", "info":"", "correct":true},
+            {"text":"ENUM", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "The SQL language is identical across all database implementations.",
+        "answers": [
+            {"false":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "To create a table you use the SQL _____ command.",
+        "answers": [
+            {"text":"CREATE", "info":"", "correct":true},
+            {"text":"INSERT", "info":""},
+            {"text":"SCHEMA", "info":""},
+            {"text":"MAKE", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "When you are ready to commit your changes to the database send the _____ command.",
+        "answers": [
+            {"text":"commit", "info":"", "correct":true},
+            {"text":"flush", "info":""},
+            {"text":"write", "info":""},
+            {"text":"rollback", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "Your code should always call _____ on every database connection.",
+        "answers": [
+            {"text":"rollback", "info":""},
+            {"text":"fetchall", "info":""},
+            {"text":"close", "info":"", "correct":true},
+            {"text":"finally", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The Python DBAPI models a row from the database as a:",
+        "answers": [
+            {"text":"tuple", "info":"", "correct":true},
+            {"text":"list", "info":""},
+            {"text":"array", "info":""},
+            {"text":"object", "info":""}
+        ]
+    },    
+    {
+        "type": "PickOne",
+        "question": "The server will order the returned rows for you if you send the _____ command.",
+        "answers": [
+            {"text":"WHERE", "info":""},
+            {"text":"ORDER BY", "info":"", "correct":true},
+            {"text":"ASCEND", "info":""},
+            {"text":"SORTED", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The values in a _____ key column must be unique.",
+        "answers": [
+            {"text":"primary", "info":"", "correct":true},
+            {"text":"foreign", "info":""},
+            {"text":"constraint", "info":""},
+            {"text":"reference", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "You can add a constraint to a column to ensure the value is greater than zero.",
+        "answers": [
+            {"true":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "A _____ key references a primary key in another table.",
+        "answers": [
+            {"text":"PRIMARY", "info":""},
+            {"text":"VARCHAR", "info":""},
+            {"text":"REF", "info":""},
+            {"text":"FOREIGN", "info":"", "correct":true}
+        ]
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "type": "PickOne",
+        "question": "The ____ widget allows the user to select a value from a drop-down list of values.",
+        "answers": [
+            {"text":"Form", "info":""},
+            {"text":"Selection",   "info":""},
+            {"text":"Entry",   "info":""},
+            {"text":"ComboBox",    "info":"", "correct":true}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "The 'ipadx' or 'ipady' pack attribute adds space on the inside of the component.",
+        "answers": [
+            {"true":"also for horizontal or vertical padding"}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "You can nest frames within frames to achieve a complex GUI layout.",
+        "answers": [
+            {"true":"this is how most non-trivial UIs are built"}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "You pass control to the GUI framework by calling ____ on the top level container.",
+        "answers": [
+            {"text":"mainloop", "info":"", "correct":true},
+            {"text":"start", "info":""},
+            {"text":"pack", "info":""},
+            {"text":"render", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "Cells in a grid layout can be configured to span multiple columns and/or rows.",
+        "answers": [
+            {"true":"use 'colspan' and 'rowspan'"}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "Some menus can be torn off and moved around on the screen.",
+        "answers": [
+            {"true":"it is up to your code to make a menu tearable"}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "The 'padx' or 'pady' pack attribute adds space on the outside of the component.",
+        "answers": [
+            {"true":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ widget shows a static line of text on the GUI.",
+        "answers": [
+            {"text":"Checkbox", "info":""},
+            {"text":"Textarea", "info":""},
+            {"text":"Label", "info":"", "correct":true},
+            {"text":"Fixedtext", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ___ layout manager organizes components into rows or columns.",
+        "answers": [
+            {"text":"pack", "info":"", "correct":true},
+            {"text":"grid", "info":""},
+            {"text":"border", "info":""},
+            {"text":"absolute", "info":""}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "The Tkinter components are styled to look like the native OS. The ttk components look pretty much the same everywhere.",
+        "answers": [
+            {"false":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ attribute tells the pack layout to automatically stretch a component to fill its area.",
+        "answers": [
+            {"text":"pad", "info":""},
+            {"text":"anchor", "info":""},
+            {"text":"expand", "info":""},
+            {"text":"fill", "info":"", "correct":true}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "You can specify the exact height, width, and position of a component with the ____ layout manager.",
+        "answers": [
+            {"text":"pack", "info":""},
+            {"text":"grid", "info":""},
+            {"text":"place", "info":"", "correct":true},
+            {"text":"absolute", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The allowed values for the fill attribute are:",
+        "answers": [
+            {"text":"Tkinter.X, Tkinter.Y, Tkinter.BOTH", "info":"", "correct":true},
+            {"text":"Tkinter.X, Tkinter.Y", "info":""},
+            {"text":"Horizontal, Vertical, Both", "info":""},
+            {"text":"None of the above", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "You can specify which side of the container to pack widgets against with the ____ attribute.",
+        "answers": [
+            {"text":"expand", "info":""},
+            {"text":"sticky", "info":""},
+            {"text":"side", "info":"", "correct":true},
+            {"text":"home", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ layout manager divides the container into a grid of cells.",
+        "answers": [
+            {"text":"place", "info":""},
+            {"text":"pack", "info":""},
+            {"text":"table", "info":""},
+            {"text":"grid", "info":"", "correct":true}
+        ]
+    },
+    {
+        "type": "TrueFalse",
+        "question": "Radiobuttons share a common data value to decide which widget is selected.",
+        "answers": [
+            {"true":"you pass this shared variable to the constructor of all radiobuttons in the group"}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ widget shows a round check-button that can be toggled on and off.",
+        "answers": [
+            {"text":"Radiobutton", "info":"", "correct":true},
+            {"text":"Roundbox", "info":""},
+            {"text":"Checkbutton", "info":""},
+            {"text":"Label", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ widget provides a familiar, clickable control to start an action.",
+        "answers": [
+            {"text":"Button", "info":"", "correct":true},
+            {"text":"Label", "info":""},
+            {"text":"Control", "info":""},
+            {"text":"Entry", "info":""}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "The ____ constructor argument points the button to the function to call when clicked.",
+        "answers": [
+            {"text":"action", "info":""},
+            {"text":"callback", "info":""},
+            {"text":"onClick", "info":""},
+            {"text":"command", "info":"", "correct":true}
+        ]
+    },
+    {
+        "type": "PickOne",
+        "question": "By default a widget is centered in its assigned area. You can change this with the ____ attribute.",
+        "answers": [
+            {"text":"alignment", "info":""},
+            {"text":"anchor", "info":"", "correct":true},
+            {"text":"location", "info":""},
+            {"text":"pad", "info":""}
+        ]
+    }
+    
+]
